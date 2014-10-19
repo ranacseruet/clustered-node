@@ -3,9 +3,16 @@
     "version"       : "0.0.1",
     "description"   : "A simple multi-process clustered server in nodejs",
     "author"        : "Rana <rana@codesamplez.com>",
+    "keywords": [
+        "cluster",
+        "multi process"
+    ],
     "dependencies"  : {
-        "winston"      : "*",
+        "winston"      : "*"
+    },
+    "devDependencies": {
         "chai"         : "*",
         "mocha"        : "*"
     }
+
 }
