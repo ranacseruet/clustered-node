@@ -1,12 +1,13 @@
 {
     "name"          : "clustered-node",
-    "version"       : "0.0.1",
+    "version"       : "0.0.2",
     "description"   : "A simple multi-process clustered server in nodejs",
     "author"        : "Rana <rana@codesamplez.com>",
     "keywords": [
         "cluster",
         "multi process"
     ],
+    "main": "./lib",
     "dependencies"  : {
         "winston"      : "*"
     },
