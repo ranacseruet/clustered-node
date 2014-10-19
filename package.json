@@ -1,0 +1,11 @@
+{
+    "name"          : "clustered-node",
+    "version"       : "0.0.1",
+    "description"   : "A simple multi-process clustered server in nodejs",
+    "author"        : "Rana <rana@codesamplez.com>",
+    "dependencies"  : {
+        "winston"      : "*",
+        "chai"         : "*",
+        "mocha"        : "*"
+    }
+}
