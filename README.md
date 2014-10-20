@@ -9,6 +9,11 @@ This project is inspired by [multi-node](https://github.com/kriszyp/multi-node) 
 Also a large portion of this project implementation idea is taken from [hopache](https://github.com/hipache/hipache)
 project's multi-process architecture.
 
+## Install
+```
+npm install clustered-node
+```
+
 ## Usage
 
 ```
