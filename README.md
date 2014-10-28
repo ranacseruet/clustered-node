@@ -24,5 +24,13 @@ var server = http.createServer(function(req, res){
      res.end("Hello World");
 });
 
+function runServer() {
+    return http.createServer(function(req, res){
+        res.end("Hello World");
+    });
+};
+
 clustered_node.listen({port:1337, workers:3}, server);
+//or
+clustered_node.run(config, runServer);
 ```

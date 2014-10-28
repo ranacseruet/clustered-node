@@ -9,4 +9,11 @@ var server = http.createServer(function(req, res){
     res.end("Hello World");
 });
 
-clustered_node.listen(config, server);
+function runServer() {
+    return http.createServer(function(req, res){
+        res.end("Hello World");
+    });
+};
+
+//clustered_node.listen(config, server);
+clustered_node.run(config, runServer);
