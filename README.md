@@ -6,7 +6,7 @@ so that you can make better utilization of your server cpu.
 
 This project is inspired by [multi-node](https://github.com/kriszyp/multi-node) project, which isn't anymore compatible with latest nodejs version.
 
-Also a large portion of this project implementation idea is taken from [hopache](https://github.com/hipache/hipache)
+Also a large portion of this project implementation idea is taken from [hipache](https://github.com/hipache/hipache)
 project's multi-process architecture.
 
 ## Install
