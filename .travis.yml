@@ -1,6 +1,10 @@
-## YAML Template.
----
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  api_key:
+    secure: SZTrdxmIyxIJ3JX83iEprigaa1AoqSrhouUgtn1zOiBkcvsdprEzKr8FXpWyrkRzGxHVSzrIzveH1aNnhol0rb7GCgzpk9iyoh9hi590S5I+sVDg1GsfE+poWYgU/YjgoZuzo1ma6HTsCIPfpL4jaaeCjKaKH7bsLaPzVUmnz3I=
+  on:
+    tags: true
