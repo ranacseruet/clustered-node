@@ -4,11 +4,8 @@ node_js:
 - '0.10'
 deploy:
   provider: npm
-  email: "rana_cse_ruet@yahoo.com"
-  clean_up: false
+  email: rana_cse_ruet@yahoo.com
   api_key:
-    secure: SZTrdxmIyxIJ3JX83iEprigaa1AoqSrhouUgtn1zOiBkcvsdprEzKr8FXpWyrkRzGxHVSzrIzveH1aNnhol0rb7GCgzpk9iyoh9hi590S5I+sVDg1GsfE+poWYgU/YjgoZuzo1ma6HTsCIPfpL4jaaeCjKaKH7bsLaPzVUmnz3I=
+    secure: B+/KuukXzvsWh6RkLam3qC/lQML+pJv8I44q/s6G8H/ANIhEljttStDXwLs8mQGXcG/DGllB3uuaKMpCPvtcyiGZV+os8Me5G9l3LYZtH/KyXdXgJJEALUsA1EG0BfOf7LmeBBblaBLRj6t3BWAR5NGdGAqkbC1xi4Qcj3JMMv8=
   on:
     repo: ranacseruet/clustered-node
-    #tags: true
-    #all_branches: true
