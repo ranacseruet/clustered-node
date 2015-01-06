@@ -35,3 +35,14 @@ clustered_node.listen({port:1337, workers:3}, server);
 //or
 clustered_node.run(config, runServer);
 ```
+
+## Development and Testing
+
+```
+npm install
+npm test
+```
+
+# Contribute
+
+Please report any bugs/feature requests via github issue tracking. Pull requests are very much welcome as well.

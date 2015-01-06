@@ -1,6 +1,6 @@
 {
     "name"          : "clustered-node",
-    "version"       : "0.0.7",
+    "version"       : "0.0.8",
     "description"   : "A simple library to create/migrate/manage multi-process clustered environment in nodejs",
     "author"        : "Rana <rana@codesamplez.com>",
     "keywords": [
