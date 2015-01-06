@@ -8,5 +8,6 @@ deploy:
   api_key:
     secure: SZTrdxmIyxIJ3JX83iEprigaa1AoqSrhouUgtn1zOiBkcvsdprEzKr8FXpWyrkRzGxHVSzrIzveH1aNnhol0rb7GCgzpk9iyoh9hi590S5I+sVDg1GsfE+poWYgU/YjgoZuzo1ma6HTsCIPfpL4jaaeCjKaKH7bsLaPzVUmnz3I=
   on:
+    repo: ranacseruet/clustered-node
     tags: true
     all_branches: true
