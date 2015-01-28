@@ -10,6 +10,11 @@ This project is inspired by [multi-node](https://github.com/kriszyp/multi-node) 
 Also a large portion of this project implementation idea is taken from [hipache](https://github.com/hipache/hipache)
 project's multi-process architecture.
 
+## Features
+- Maximum Utilization of multi-core/multi-cpu environment by parallel processing of requests.
+- Enforce app to be in scalable architecture.
+- Failure tolerance. Automatically restart a process if crashed for some reason, no need for external monitoring system.
+
 ## Install
 ```
 npm install clustered-node
@@ -43,6 +48,11 @@ npm install
 npm test
 ```
 
-# Contribute
+## Future Consideration
+- More API method to lessen developer effort in creating http server
+- Feature to auto restart a process after certain number of requests, to facilitate bypassing memory leak issues, even if there any.
+- More unit test cases.
+
+## Contribute
 
 Please report any bugs/feature requests via github issue tracking. Pull requests are very much welcome as well.
