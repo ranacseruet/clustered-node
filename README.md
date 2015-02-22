@@ -41,6 +41,7 @@ clustered_node.run(config, runServer);
 ```
 npm install
 npm test
+grunt
 ```
 
 # Contribute

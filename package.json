@@ -1,32 +1,34 @@
 {
-    "name"          : "clustered-node",
-    "version"       : "0.0.8",
-    "description"   : "A simple library to create/migrate/manage multi-process clustered environment in nodejs",
-    "author"        : "Rana <rana@codesamplez.com>",
-    "keywords": [
-        "cluster",
-        "worker",
-        "multi-process",
-        "multi-thread",
-        "failure tolerance"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:ranacseruet/clustered-node.git"
-    },
-    "bugs": {
-        "url": "https://github.com/ranacseruet/clustered-node/issues"
-    },
-    "homepage": "https://github.com/ranacseruet/clustered-node",
-    "main": "./lib",
-    "dependencies"  : {
-        "winston"      : "*"
-    },
-    "devDependencies": {
-        "chai"         : "*",
-        "mocha"        : "*"
-    },
-    "scripts": {
-        "test": "mocha"
-    }
+  "name": "clustered-node",
+  "version": "0.0.9",
+  "description": "A simple library to create/migrate/manage multi-process clustered environment in nodejs",
+  "author": "Rana <rana@codesamplez.com>",
+  "keywords": [
+    "cluster",
+    "worker",
+    "multi-process",
+    "multi-thread",
+    "failure tolerance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ranacseruet/clustered-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ranacseruet/clustered-node/issues"
+  },
+  "homepage": "https://github.com/ranacseruet/clustered-node",
+  "main": "./lib",
+  "dependencies": {
+    "winston": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
