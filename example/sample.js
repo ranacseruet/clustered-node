@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Created by Rana on 2014-09-21.
  */
@@ -15,5 +17,5 @@ function runServer() {
     });
 };
 
-//clustered_node.listen(config, server);
-clustered_node.run(config, runServer);
+clustered_node.listen(config, server);
+//clustered_node.run(config, runServer);
