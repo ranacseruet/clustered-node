@@ -1,6 +1,7 @@
 clustered-node
 ==============
-[![Build Status](https://travis-ci.org/ranacseruet/clustered-node.svg)](https://travis-ci.org/ranacseruet/clustered-node)
+[![CircleCI](https://circleci.com/gh/ranacseruet/clustered-node.svg?style=svg)](https://circleci.com/gh/ranacseruet/clustered-node)
+[![Coverage Status](https://coveralls.io/repos/ranacseruet/clustered-node/badge.svg?branch=master&service=github)](https://coveralls.io/github/ranacseruet/clustered-node?branch=master)
 
 A Simple library to make your traditional single threaded nodejs server into a multi-process based server, 
 so that you can make better utilization of your server cpu.
