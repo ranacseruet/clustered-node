@@ -24,11 +24,14 @@
   },
   "devDependencies": {
     "chai": "*",
+    "coveralls": "^2.11.9",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.0",
-    "mocha": "*"
+    "istanbul": "^0.4.4",
+    "mocha": "*",
+    "mocha-lcov-reporter": "^1.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | COVERALLS_REPO_TOKEN=ZK4fZALeD1tzyd9Xq9EuPCB6xPQAAKzgH ./node_modules/coveralls/bin/coveralls.js"
   }
 }
